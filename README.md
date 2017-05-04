@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Restitution BreizhCamp 2017
 Restitution des différentes présentations vues au BreizhCamp 2017
 
@@ -6,3 +7,7 @@ Restitution des différentes présentations vues au BreizhCamp 2017
 Présentation faite avec le projet reveal.js
 MIT licensed
 Copyright (C) 2017 Hakim El Hattab, http://hakim.se
+=======
+# restitutions-breizhcamp2017
+Restitution for the BreizhCamp 2017
+>>>>>>> origin/master

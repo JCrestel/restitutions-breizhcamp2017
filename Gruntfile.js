@@ -175,7 +175,9 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-retire' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'copy' ] );
+	grunt.registerTask( 'default', [ 'copy' ] , function() {
+    	grunt.log.write('Copie des fichiers de la présentation dans le dossier /docs ').ok();
+  	});
 
 	// JS task
 	grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );

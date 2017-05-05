@@ -3,7 +3,7 @@
 Restitution des différentes présentations vues au BreizhCamp 2017
 
 
-#### License
+#### Credits
 
 Présentation faite avec le projet reveal.js
 MIT licensed

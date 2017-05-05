@@ -1,11 +1,11 @@
 {
-  "name": "reveal.js",
+  "name": "restitutions-breizhcamp2017",
   "version": "3.5.0",
   "main": [
     "js/reveal.js",
     "css/reveal.css"
   ],
-  "homepage": "http://lab.hakim.se/reveal-js/",
+  "homepage": "https://jcrestel.github.io/restitutions-breizhcamp2017/",
   "license": "MIT",
   "description": "Restitution BreizhCamp 2017",
   "authors": [

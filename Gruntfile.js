@@ -97,7 +97,6 @@ module.exports = function(grunt) {
 					open: true
 				}
 			},
-
 		},
 
 		zip: {
@@ -145,8 +144,21 @@ module.exports = function(grunt) {
 			js: ['js/reveal.js', 'lib/js/*.js', 'plugin/**/*.js'],
 			node: ['.'],
 			options: {}
-		}
+		},
 
+		copy: {
+			main: {    			
+				expand: true,
+				src: [
+					'index.html',
+					'css/**',
+					'js/**',
+					'lib/**',
+					'images/**'
+				],
+				dest: 'docs/',
+			}
+		}		
 	});
 
 	// Dependencies
@@ -155,6 +167,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-contrib-cssmin' );
 	grunt.loadNpmTasks( 'grunt-contrib-uglify' );
 	grunt.loadNpmTasks( 'grunt-contrib-watch' );
+	grunt.loadNpmTasks( 'grunt-contrib-copy' );
 	grunt.loadNpmTasks( 'grunt-sass' );
 	grunt.loadNpmTasks( 'grunt-contrib-connect' );
 	grunt.loadNpmTasks( 'grunt-autoprefixer' );
@@ -162,7 +175,7 @@ module.exports = function(grunt) {
 	grunt.loadNpmTasks( 'grunt-retire' );
 
 	// Default task
-	grunt.registerTask( 'default', [ 'css', 'js' ] );
+	grunt.registerTask( 'default', [ 'copy' ] );
 
 	// JS task
 	grunt.registerTask( 'js', [ 'jshint', 'uglify' ] );

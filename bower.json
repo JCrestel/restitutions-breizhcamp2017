@@ -7,16 +7,17 @@
   ],
   "homepage": "http://lab.hakim.se/reveal-js/",
   "license": "MIT",
-  "description": "The HTML Presentation Framework",
+  "description": "Restitution BreizhCamp 2017",
   "authors": [
-    "Hakim El Hattab <hakim.elhattab@gmail.com>"
+    "Jean François Le Foll <https://github.com/JeffLeFoll>",
+    "Jérémy Crestel <https://github.com/JCrestel>"
   ],
   "dependencies": {
     "headjs": "~1.0.3"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/hakimel/reveal.js.git"
+    "url": "git://github.com/JCrestel/restitutions-breizhcamp2017.git"
   },
   "ignore": [
     "**/.*",

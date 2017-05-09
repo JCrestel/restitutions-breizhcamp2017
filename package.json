@@ -6,7 +6,7 @@
   "main": "js/reveal.js",
   "scripts": {
     "start": "grunt serve",
-    "build": "grunt",
+    "build": "grunt"
   },
   "author": {
     "name": "Jérémy Crestel",

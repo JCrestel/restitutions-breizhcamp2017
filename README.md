@@ -1,6 +1,8 @@
 # Restitution BreizhCamp 2017
 
-Restitution des différentes présentations vues au BreizhCamp 2017
+Restitution des différentes présentations vues au BreizhCamp 2017: nom des conférences, speakers, lien vers les slides.
+
+Voici le lien: https://jcrestel.github.io/restitutions-breizhcamp2017/
 
 
 #### Credits
